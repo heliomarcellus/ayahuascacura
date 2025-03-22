@@ -3,21 +3,53 @@
     <url>
         <loc>https://ayahuascacura.com.br/</loc>
         <lastmod>2024-03-18</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://ayahuascacura.com.br/#livro</loc>
+        <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://ayahuascacura.com.br/#atendimento</loc>
+        <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://ayahuascacura.com.br/#consagracao</loc>
+        <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://ayahuascacura.com.br/#beneficios</loc>
         <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://ayahuascacura.com.br/#depoimentos</loc>
         <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://ayahuascacura.com.br/#contato</loc>
         <lastmod>2024-03-18</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://bit.ly/3QAsIXR</loc>
+        <priority>0.6</priority>
+        <changefreq>never</changefreq>
+    </url>
+    <url>
+        <loc>https://bit.ly/3QATWh5</loc>
+        <priority>0.6</priority>
+        <changefreq>never</changefreq>
     </url>
 </urlset>
