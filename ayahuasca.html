@@ -27,9 +27,9 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://ayahuascacura.com.br/,
+            "url": "https://ayahuascacura.com.br/",
             "priceCurrency": "BRL",
-            "price": "54.90",
+            "price": 54.90,
             "priceValidUntil": "2025-12-31",
             "itemCondition": "https://schema.org/NewCondition",
             "availability": "https://schema.org/InStock",
@@ -37,7 +37,10 @@
               "@type": "OfferShippingDetails",
               "shippingDestination": {
                 "@type": "DefinedRegion",
-                "addressCountry": "BR"
+                "addressCountry": {
+                  "@type": "Country",
+                  "name": "BR"
+                }
               },
               "deliveryTime": {
                 "@type": "ShippingDeliveryTime",
@@ -56,23 +59,26 @@
               },
               "shippingRate": {
                 "@type": "MonetaryAmount",
-                "value": "0",
+                "value": 0,
                 "currency": "BRL"
               }
             },
             "hasMerchantReturnPolicy": {
               "@type": "MerchantReturnPolicy",
-              "applicableCountry": "BR",
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+              "applicableCountry": {
+                "@type": "Country",
+                "name": "BR"
+              },
               "merchantReturnDays": 7,
-              "returnMethod": "https://schema.org/ReturnByMail",
-              "returnFees": "https://schema.org/FreeReturn"
+              "returnMethod": "ReturnByMail",
+              "returnFees": "FreeReturn"
             }
           },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.8",
-            "reviewCount": "35"
+            "reviewCount": 35
           },
           "review": [
             {
@@ -84,7 +90,7 @@
               "datePublished": "2025-03-01",
               "reviewRating": {
                 "@type": "Rating",
-                "ratingValue": "5"
+                "ratingValue": 5
               },
               "reviewBody": "Esse livro mudou minha vida! Uma jornada espiritual incrível."
             },
@@ -97,16 +103,13 @@
               "datePublished": "2025-02-28",
               "reviewRating": {
                 "@type": "Rating",
-                "ratingValue": "4"
+                "ratingValue": 4
               },
               "reviewBody": "Uma leitura essencial para quem busca autoconhecimento."
             }
           ]
         }
         </script>
-
-
-
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
