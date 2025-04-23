@@ -41,14 +41,33 @@
                 "value": "0.00",
                 "currency": "BRL"
               },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 1,
+                  "maxValue": 2,
+                  "unitCode": "d"
+                },
+                "transitTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 2,
+                  "maxValue": 5,
+                  "unitCode": "d"
+                }
+              },
               "shippingDestination": {
                 "@type": "DefinedRegion",
-                "addressCountry": "BR"
+                "addressCountry": {
+                  "@type": "Country",
+                  "name": "BR"
+                }
               }
             },
             "hasMerchantReturnPolicy": {
               "@type": "MerchantReturnPolicy",
-              "returnPolicyCategory": "https://schema.org/NoReturns"
+              "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+              "applicableCountry": "BR"
             }
           },
           "aggregateRating": {
@@ -87,7 +106,7 @@
             }
           ]
         }
-        </script>            
+        </script>                  
     
 
 
