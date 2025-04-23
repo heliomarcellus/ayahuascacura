@@ -48,14 +48,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-    <url>
-        <loc>https://loja.uiclap.com/titulo/ua85977/</loc>
-        <priority>0.6</priority>
-        <changefreq>never</changefreq>
-    </url>
-    <url>
-        <loc>https://chk.eduzz.com/60EEJXV603</loc>
-        <priority>0.6</priority>
-        <changefreq>never</changefreq>
-    </url>
 </urlset>
