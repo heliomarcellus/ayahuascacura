@@ -31,9 +31,25 @@
             "@type": "Offer",
             "url": "https://ayahuascacura.com.br/",
             "priceCurrency": "BRL",
-            "price": "R$500",
+            "price": 500.00,
             "priceValidUntil": "2025-12-31",
-            "availability": "https://schema.org/InStock"
+            "availability": "https://schema.org/InStock",
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0.00",
+                "currency": "BRL"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "BR"
+              }
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "returnPolicyCategory": "https://schema.org/NoReturns"
+            }
           },
           "aggregateRating": {
             "@type": "AggregateRating",
@@ -71,7 +87,7 @@
             }
           ]
         }
-        </script>        
+        </script>            
     
 
 
