@@ -27,17 +27,6 @@
             "@type": "Brand",
             "name": "CURA - Centro Universalista Ramatis Aymoré"
           },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-            "applicableCountry": {
-              "@type": "Country",
-              "name": "BR"
-            },
-            "returnFees": "https://schema.org/NoReturnFees",
-            "returnMethod": "https://schema.org/ReturnByMail",
-            "merchantReturnDays": 7
-          },
           "offers": {
             "@type": "Offer",
             "url": "https://ayahuascacura.com.br/",
@@ -78,7 +67,13 @@
             "hasMerchantReturnPolicy": {
               "@type": "MerchantReturnPolicy",
               "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-              "applicableCountry": "BR"
+              "applicableCountry": {
+                "@type": "Country",
+                "name": "BR"
+              },
+              "returnFees": "https://schema.org/NoReturnFees",
+              "returnMethod": "https://schema.org/ReturnByMail",
+              "merchantReturnDays": 7
             }
           },
           "aggregateRating": {
@@ -117,8 +112,9 @@
             }
           ]
         }
-        </script>                  
-    
+        </script>
+
+
 
 
     <!-- ========================= CSS here ========================= -->
