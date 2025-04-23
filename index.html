@@ -58,63 +58,96 @@
 
     <!-- Produto: Livro Ayahuasca - A Alquimia da Floresta -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Ayahuasca - A Alquimia da Floresta",
-      "image": "https://ayahuascacura.com.br/assets/images/ayahuasca/livro-capa.webp",
-      "description": "Um guia profundo sobre a Ayahuasca e Alquimia, explorando cura espiritual, autoconhecimento e expansão da consciência.",
-      "brand": {
-        "@type": "Brand",
-        "name": "CURA - Centro Universalista Ramatis Aymoré"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://ayahuascacura.com.br",
-        "priceCurrency": "BRL",
-        "price": "54.90",
-        "priceValidUntil": "2025-12-31",
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "35"
-      },
-      "review": [
         {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Helio Marcellus"
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Ayahuasca - A Alquimia da Floresta",
+          "image": "https://ayahuascacura.com.br/assets/images/ayahuasca/livro-capa.webp",
+          "description": "Um guia profundo sobre a Ayahuasca e Alquimia, explorando cura espiritual, autoconhecimento e expansão da consciência.",
+          "brand": {
+            "@type": "Brand",
+            "name": "CURA - Centro Universalista Ramatis Aymoré"
           },
-          "datePublished": "2025-03-01",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
+          "offers": {
+            "@type": "Offer",
+            "url": "https://ayahuascacura.com.br/livro",
+            "priceCurrency": "BRL",
+            "price": "54.90",
+            "priceValidUntil": "2025-12-31",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "BR"
+              },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 1,
+                  "maxValue": 2,
+                  "unitCode": "d"
+                },
+                "transitTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 2,
+                  "maxValue": 7,
+                  "unitCode": "d"
+                }
+              },
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "BRL"
+              }
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "BR",
+              "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+              "returnPolicySeasonalOverride": "false",
+              "merchantReturnDays": 7,
+              "returnMethod": "https://schema.org/ReturnByMail",
+              "returnFees": "https://schema.org/FreeReturn"
+            }
           },
-          "reviewBody": "Esse livro mudou minha vida! Uma jornada espiritual incrível."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Maria Oliveira"
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "35"
           },
-          "datePublished": "2025-02-28",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "reviewBody": "Uma leitura essencial para quem busca autoconhecimento."
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Helio Marcellus"
+              },
+              "datePublished": "2025-03-01",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+              },
+              "reviewBody": "Esse livro mudou minha vida! Uma jornada espiritual incrível."
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Maria Oliveira"
+              },
+              "datePublished": "2025-02-28",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+              },
+              "reviewBody": "Uma leitura essencial para quem busca autoconhecimento."
+            }
+          ]
         }
-      ]
-    }
-    </script>
-
-
-
+        </script>
 
 
     <!-- ========================= CSS here ========================= -->
