@@ -2210,3 +2210,10 @@ Author: lineicons.com
   content: "\ec03";
 }
 
+.lni-x::before {
+  content: "\e9d4";
+}
+
+.lni-tiktok::before {
+  content: "\ed6b";
+}
