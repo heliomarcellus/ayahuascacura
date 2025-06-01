@@ -2506,7 +2506,7 @@ ol {
 }
 
 .pricing-table .single-table {
-  min-height: 650px;
+  /* min-height: 500px; */
   border: 1px solid #eee;
   border-radius: 10px;
   margin-top: 30px;
