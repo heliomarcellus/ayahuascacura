@@ -1787,6 +1787,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 0;
+    background-color: #274830;
 }
 
 .navbar-area.sticky {
@@ -2074,7 +2075,8 @@ ol {
 .hero-area {
   position: relative;
   padding: 180px 0 120px 0;
-  background: #436B4E;
+  background:#436B4E url("../images/ayahuasca/Jaguar8.webp") no-repeat 0 -160px;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2084,6 +2086,17 @@ ol {
   
   .slider {
     margin-top: 20px!important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .hero-area {
+  background:#436B4E url("../images/ayahuasca/Jaguar8.webp") no-repeat -315px -120px!important;
+  }
+  
+  .hero-area .hero-content h1 {
+    color: #fff;
+  text-shadow: 2px 2px 5px #000000!important;
   }
 }
 
@@ -2127,6 +2140,7 @@ ol {
   position: relative;
   z-index: 1;
   text-align: left;
+  text-shadow: 2px 2px 5px #000000!important;
 }
 
 .hero-area .hero-content h1 {
@@ -2136,6 +2150,7 @@ ol {
   color: #fff;
   text-shadow: 0px 3px 8px #00000017;
   text-transform: capitalize;
+  text-shadow: 2px 2px 5px #000000!important;
 }
 
 .hero-area .hero-content h1 span {
